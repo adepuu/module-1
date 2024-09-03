@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class GeometryAndUtilsDemo {
   public static void runExercises() {
+    System.out.println("Demo!");
+
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter rectangle length: ");
     double length = scanner.nextDouble();
