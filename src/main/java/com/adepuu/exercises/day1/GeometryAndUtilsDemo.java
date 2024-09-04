@@ -4,17 +4,9 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 public class GeometryAndUtilsDemo {
-  public static void runExercises() {
-    System.out.println("Demo! awdawdasdawdasdawdasdawdasdawdawdawd");
-
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Enter rectangle length: ");
-    double length = scanner.nextDouble();
-    System.out.println("Enter rectangle width: ");
-    double width = scanner.nextDouble();
-
+  public static void run() {
     // Rectangle area
-    Rectangle rectangle = new Rectangle(length, width);
+    Rectangle rectangle = new Rectangle(5, 3);
     System.out.println("Rectangle area: " + rectangle.calculateArea());
 
     // Circle calculations
